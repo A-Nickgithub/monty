@@ -17,7 +17,7 @@ void set_mode(stack_mode_t *mode)
  * @line_number: The line number in the file
  * where the add instruction appears.
  */
-void add(stack_t **stack, unsigned int line_number)
+void add (stack_t **stack, unsigned int line_number)
 {
 	if (*stack != NULL && (*stack)->next != NULL)
 	{
