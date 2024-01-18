@@ -39,6 +39,8 @@ void pchar(stack_t **stack, unsigned int line_number);
 void pstr(stack_t **stack, unsigned int line_number);
 void rotl(stack_t **stack, unsigned int line_number);
 void rotr(stack_t **stack, unsigned int line_number);
+void addnode(stack_t **head, int n);
+int main(int argc, char *argv[]);
 
 #endif /* MONTY_H */
 

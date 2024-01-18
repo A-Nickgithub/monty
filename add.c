@@ -5,7 +5,8 @@
 /**
  * add - Adds the top two elements of the stack.
  * @stack: A pointer to the top of the stack.
- * @line_number: The line number in the file where the add instruction appears.
+ * @line_number: The line number in the file
+ * where the add instruction appears.
  */
 void add(stack_t **stack, unsigned int line_number)
 {
